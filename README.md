@@ -16,6 +16,6 @@
 ---
 ## 🚀  Project Live Link <br>
 ---
-This project is hosted on netlify. [Live Project Link](https://moonlit-rolypoly-ca890e.netlify.app/)
+This project is hosted on netlify. [Live Project Link](https://zesty-frangollo-a9ba2a.netlify.app/)
 
 ![Landing web page](/Interior.png)
