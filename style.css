@@ -225,7 +225,34 @@
     color: white;
   }
   .nav-items {
+    padding-top: 20px;
     display: none;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    z-index: 9;
+  }
+  .nav-items::after{
+  display: none;
+}
+  .item-list{
+    color: black;
+    font-size: 17px;
+    margin: 10px;
+  }
+  .item-name{
+    color: black;
+    font-size: 13px;
+  }
+  .contact{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
   }
   .text > h1 {
     width: 100%;
@@ -240,9 +267,13 @@
     display: flex;
     margin-bottom: 100px;
   }
+  .card{
+    z-index: -9;
+  }
   .card-bottom {
     /* left: 300px; */
     position: relative;
+    z-index: -9;
   }
 }
 
